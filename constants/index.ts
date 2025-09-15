@@ -1,4 +1,5 @@
 export const images = {
+  yourlogo: "/assets/yourlogo.svg",
   takex: "/assets/takex.png",
   brainwave: "/assets/brainwave.svg",
   check: "/assets/check.svg",

@@ -36,11 +36,12 @@ const Pricing = (props: Props) => {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <p
+          <Link
             className="border-b font-code text-xs font-bold uppercase tracking-wider"
+            href="#pricing"
           >
             Only Plus and Pro receive the Scori™ credibility badge.
-          </p>
+          </Link>
         </div>
       </div>
     </Section>

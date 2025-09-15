@@ -8,13 +8,13 @@ const CompanyLogos = ({ className }: { className: string }) => {
       <h5 className="tagline mb-6 text-center text-n-1/50">
         Helping founders get their first investment
       </h5>
-      {/* <ul className="flex">
+      <ul className="flex">
         {companyLogos.map((logo, index) => (
           <li key={index} className="flex h-[8.5rem] flex-1 items-center justify-center">
             <Image src={logo} width={134} height={28} alt={logo} />
           </li>
         ))}
-      </ul> */}
+      </ul>
     </div>
   );
 };
