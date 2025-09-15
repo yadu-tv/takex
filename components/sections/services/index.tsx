@@ -23,8 +23,8 @@ const Services = (props: Props) => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="For global investors"
+          text="TakeX unlocks the potential of AI-powered investments"
         />
 
         <div className="relative">
@@ -40,9 +40,10 @@ const Services = (props: Props) => {
             </div>
 
             <div className="relative z-1 ml-auto max-w-[17rem]">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">TakeX for investors</h4>
               <p className="body-2 mb-12 text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Emerging market deal flow with institutional-grade diligence. Access pre-verified, investment-ready startups from high-growth markets.
+                Scori™ assessment reduces information asymmetry and accelerates decision-making.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((service, index) => (
@@ -68,10 +69,9 @@ const Services = (props: Props) => {
                 />
               </div>
               <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-n-8/0 to-n-8/90 p-8 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">TakeX for founders</h4>
                 <p className="body-2 mb-12 text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s photo editing feature.
-                  Try it now!
+                  Get assessed. Build Network. Access Capital
                 </p>
               </div>
 
@@ -80,10 +80,9 @@ const Services = (props: Props) => {
 
             <div className="overflow-hidden rounded-3xl bg-n-7 p-4 lg:min-h-[46rem]">
               <div className="px-4 py-12 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Atmosfaira Network</h4>
                 <p className="body-2 mb-8 text-n-3">
-                  The world’s most powerful AI photo and video art generation engine. What will you
-                  create?
+                  Real founder conversations. Genuine insights. No sales pitches. A private space for the emerging market journey.
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -101,7 +100,7 @@ const Services = (props: Props) => {
                       <div
                         className={cn(
                           index === selectedItem &&
-                            "flex size-full items-center justify-center rounded-2xl bg-n-7"
+                          "flex size-full items-center justify-center rounded-2xl bg-n-7"
                         )}
                       >
                         <Image src={item} alt="icon" width={24} height={24} />

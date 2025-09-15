@@ -15,7 +15,7 @@ const Benefits = (props: Props) => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title="Raise Smarter, Not Harder with TakeX"
         />
 
         <div className="mb-10 flex flex-wrap gap-10">

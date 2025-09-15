@@ -27,10 +27,10 @@ const PricingList = (props: Props) => {
 
           <Button
             className="mb-6 w-full"
-            href={item.price ? "/pricing" : "mailto:contact@brainwave.ai"}
+            href={item.price ? "/pricing" : "mailto:cath@takex.ai"}
             white={!!item.price}
           >
-            {item.price ? "Get started" : "Contact us"}
+            {item.price ? "Join Waitlist" : "Contact us"}
           </Button>
 
           <ul>

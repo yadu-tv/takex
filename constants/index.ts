@@ -1,5 +1,5 @@
 export const images = {
-  yourlogo: "/assets/yourlogo.svg",
+  takex: "/assets/takex.png",
   brainwave: "/assets/brainwave.svg",
   check: "/assets/check.svg",
   check2: "/assets/check-02.svg",
@@ -110,18 +110,18 @@ const {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Platform",
+    url: "#platform",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Insights",
+    url: "#insight",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "About Us",
+    url: "#about-us",
   },
   {
     id: "3",
@@ -148,7 +148,12 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const brainwaveServices = ["Photo generating", "Photo enhance", "Seamless Integration"];
+export const brainwaveServices = [
+  "80% Faster screening",
+  "3x Higher signal-to-noise",
+  "84% Pass due diligence",
+  "96% Seed & Series A",
+];
 
 export const brainwaveServicesIcons = [recording03, recording01, disc02, chromecast, sliders04];
 
@@ -188,22 +193,21 @@ export const roadmap = [
   },
 ];
 
-export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+export const collabText = "Business Model Strength";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Problem & Market Fit",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Solution & Product",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Traction & Validation",
   },
 ];
 
@@ -269,35 +273,48 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "Signal",
+    description: "Your quick entry point: a sharp, no-cost readiness snapshot.",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Track allocation assessment",
+      "1-page executive summary",
+      "Strength & gap overview",
+      "Basic improvement roadmap",
+      "Access to Atmosfaira™ community",
+      "Private track assignment",
+      "Peer networking opportunities",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Plus",
+    description: "Structured, actionable feedback with credibility you can share.",
+    price: "59",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "2–4 page comprehensive review",
+      "Track allocation with rationale",
+      "10-pillar scoring heatmap",
+      "Prioritized growth recommendations",
+      "Priority Atmosfaira™ access",
+      "Scori™ credibility badge",
+      "Peer verification visibility",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Pro",
+    description: "Investor-grade insights and professional roadmap to execution.",
+    price: 129,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "5+ page deep-dive analysis",
+      "Complete competitive insights",
+      "Red-flag risk assessment",
+      "90-day milestone roadmap",
+      "Premium Atmosfaira™ access",
+      "Priority investor matching",
+      "Dedicated founder support",
+      "Traceability documentation",
     ],
   },
 ];
@@ -305,16 +322,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Scori™ Assessment",
+    text: "VC-grade evaluation across 200+ data points. Generates investment-ready profiles that global investors trust. Purpose-built for emerging market context.",
     backgroundUrl: "assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Atmosfaira Network",
+    text: "Casual community space for verified founders. Peer support without sales pitches. Real conversations between entrepreneurs who understand the emerging market journey.",
     backgroundUrl: "assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -322,35 +339,10 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Intelligent Matching",
+    text: "Direct connections between assessed founders and global capital. Pre-verified deal flow reduces investor screening time by 80%.",
     backgroundUrl: "assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];

@@ -19,7 +19,7 @@ export default function Home() {
         <Collaboration />
         <Services />
         <Pricing />
-        <Roadmap />
+        {/* <Roadmap /> */}
         <Footer />
       </div>
       <ButtonGradient />

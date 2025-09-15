@@ -14,7 +14,7 @@ const Roadmap = (props: Props) => {
   return (
     <Section id="roadmap" className="overflow-hidden">
       <div className="container md:pb-10">
-        <Heading tag="Ready to get started" title="What we're working on" />
+        <Heading tag="Ready to get started" title="Accelerator and program partnerships" />
 
         <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-28">
           {roadmap.map((item) => {

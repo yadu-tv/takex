@@ -27,7 +27,7 @@ const Pricing = (props: Props) => {
           </div>
         </div>
 
-        <Heading tag="Get started with Brainwave" title="Pay once, use forever" />
+        <Heading tag="Get started with TakeX" title="Pay once, use forever" />
 
         <div className="relative">
           <PricingList />
@@ -36,12 +36,11 @@ const Pricing = (props: Props) => {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <Link
+          <p
             className="border-b font-code text-xs font-bold uppercase tracking-wider"
-            href="#pricing"
           >
-            See the full details
-          </Link>
+            Only Plus and Pro receive the Scori™ credibility badge.
+          </p>
         </div>
       </div>
     </Section>

@@ -13,7 +13,7 @@ const Collaboration = (props: Props) => {
     <Section id="collaboration" crosses>
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
-          <h2 className="h2 mb-12 max-md:mb-4">AI Chat App for seamless collaboration</h2>
+          <h2 className="h2 mb-12 max-md:mb-4">Scori™ methodology</h2>
           <ul className="mb-10 max-w-[22rem] md:mb-14">
             {collabContent.map((item) => (
               <li key={item.id} className="mb-3 py-3">
@@ -25,7 +25,7 @@ const Collaboration = (props: Props) => {
               </li>
             ))}
           </ul>
-          <Button>Try it now</Button>
+          <Button>See the full framework</Button>
         </div>
 
         <div className="mt-4 lg:ml-auto xl:w-[38rem]">
@@ -37,7 +37,7 @@ const Collaboration = (props: Props) => {
             <div className="m-auto flex aspect-square w-60 rounded-full border border-n-6">
               <div className="m-auto aspect-square w-24 rounded-full bg-conic-gradient p-[0.2rem]">
                 <div className="flex h-full items-center justify-center rounded-full bg-n-8">
-                  <Image src={images.brainwaveSymbol} width={48} height={48} alt="brainwave" />
+                  <Image src={images.takex} width={48} height={48} alt="takex" />
                 </div>
               </div>
             </div>

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { brainwave } from "@/public/assets/index";
+import { takex } from "@/public/assets/index";
 import { cn } from "@/lib/utils";
 import { navigation } from "@/constants";
 import Button from "../atoms/button";
@@ -56,7 +56,16 @@ const Navbar = (props: Props) => {
     >
       <div className={cn(`flex items-center px-5 max-lg:py-4 lg:px-7.5 xl:px-10`)}>
         <Link href="#hero" className={cn(`block w-48 xl:mr-8`)}>
-          <Image src={brainwave} alt="brainwave" width={190} height={40} />
+          {/* <Image src={brainwave} alt="brainwave" width={190} height={40} /> */}
+          <div className="flex items-center flex-row gap-1">
+            <span
+              className="text-2xl font-poppins h-10 flex items-center tracking-widest"
+              style={{ lineHeight: "2.5rem", letterSpacing: "0.08em" }}
+            >
+              take
+            </span>
+            <Image src={takex} alt="takex" className="h-10 w-auto" style={{ height: "1.6rem" }} />
+          </div>
         </Link>
 
         <nav

@@ -18,7 +18,7 @@ const Notification = ({ className, title }: Props) => {
     >
       <Image src={images.notification1} width={62} height={62} alt="image" className="rounded-xl" />
       <div className="flex-1">
-        <h6 className="mb-1 justify-between text-base font-semibold">{title}</h6>
+        <h6 className="mb-1 justify-between text-sm font-semibold">{title}</h6>
 
         <div className="flex items-center justify-between">
           <ul className="-m-0.5 flex">
